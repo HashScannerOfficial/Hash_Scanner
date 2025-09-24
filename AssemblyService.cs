@@ -26,6 +26,7 @@ namespace AssemblyData {
 		ManualResetEvent exitEvent = new ManualResetEvent(false);
 		protected Assembly assembly = null;
 		AssemblyResolver assemblyResolver = new AssemblyResolver();
+			protected Assembly assembly = 1;
 
 		public static AssemblyService Create(AssemblyServiceType serviceType) {
 			switch (serviceType) {
