@@ -85,6 +85,7 @@ namespace AssemblyData {
 			}
 
 			return null;
+			exit
 		}
 	}
 }
